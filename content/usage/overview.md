@@ -44,7 +44,7 @@ build:
 Hooks specify commit details including branch and commit hash. Drone will automatically clone and checkout the commit into the build workspace:
 
 ```
-git clone --depth=50 --recusive=true \
+git clone --depth=50 --recursive=true \
     https://github.com/octocat/hello-world.git \
     /drone/src/github.com/octocat/hello-world
 
